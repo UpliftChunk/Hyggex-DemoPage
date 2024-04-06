@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './Components/About';
+import Content from './Components/Content';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+// import logo from './images/PayPal.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex flex-col'>
+      <div className='sticky top-0 bg-white z-10 outline info'>
+        <Navbar></Navbar>
+      </div>
+
+      <div>
+       <Content></Content>
+      </div>
+
+      <div>
+        <About></About>
+      </div>
+
+      <div>
+        <Footer></Footer>
+      </div>
+    
     </div>
   );
 }
