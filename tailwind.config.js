@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        "primary": "#022069",
+        "primary": "#164EC0",
         "secondary": "#0070B8",
         "ebony":"#4e5340",
         "almond":"#ffe9d6",
@@ -25,7 +25,7 @@ module.exports = {
         "cherry":"#ff1b1c",
         "rosewood":"#5a0001",
         "babypowder":"#F5F7F3"
-      },  
+      },
     },
   },
   plugins: [],

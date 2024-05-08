@@ -2,7 +2,6 @@ import About from './Components/About';
 import Content from './Components/Content';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
-// import logo from './images/PayPal.png';
 
 function App() {
   return (

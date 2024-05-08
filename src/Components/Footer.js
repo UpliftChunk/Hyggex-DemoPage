@@ -1,10 +1,9 @@
 import React from 'react'
-import PayPalLogo from '../images/PayPal.png'
-import AmericaFlagLogo from '../images/AmericaFlag.png'
+import TitleLogo from '../images/Title.png'
 const Footer = () => {
   return (
     <div className='flex flex-col gap-4 py-12 laptop:px-20 mobile:px-4 text-sm font-bold'>
-      <img src={PayPalLogo} alt="PayPalLogo" className='w-36' />
+      <img src={TitleLogo} alt="TitleLogo" className='w-36' />
       <div className='flex flex-wrap gap-4 justify-between'>
          
          <div className='flex flex-wrap gap-4'>
@@ -17,9 +16,6 @@ const Footer = () => {
             <div>Enterprise</div>
             <div>Partners</div>
             <div>Feedback</div>
-         </div>
-         <div className='flex'>
-            <img src={AmericaFlagLogo} alt="americaLogo" className='min-w-6 h-6'/>
          </div>
 
       </div>
