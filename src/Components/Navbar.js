@@ -15,7 +15,7 @@ const Navbar = () => {
          <div className={`mobile:self-start flex z-10 transition-all
                         laptop:flex-grow mobile:w-4/6 mobile:flex-col mobile:absolute mobile:bg-white mobile:min-h-screen mobile:py-3 mobile:outline
                         mobile:top-0 mobile:justify-between 
-                        ${Open?"mobile:right-0":"mobile:-right-[100%] hidden"}`}>
+                        ${Open?"mobile:right-0":"mobile:-right-[100%] mobile:hidden"}`}>
             <div className='flex items-center px-3 mobile:flex-col mobile:gap-3 laptop:gap-10 laptop:py-4'>
                <div className="text-gray-600 cursor-pointer">Home</div>
                <div className="text-gray-600 cursor-pointer">Flashcard</div>
