@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col relative'>
       <div className='sticky top-0 bg-white z-10 outline info'>
         <Navbar></Navbar>
       </div>

@@ -26,8 +26,8 @@ const Study = () => {
    }
    const [fullscreen, setFullscreen] = useState(false);
   return (
-    <div className={`flex-grow flex flex-col items-center gap-2 py-4 laptop:w-[20em] mobile:w-[16em] ${fullscreen?"laptop:w-[90vw]":""}`}>
-      <div className='flex items-center justify-between px-5 py-3 bg-gradient-to-tr to-indigo-900 via-primary from-sky-500 rounded-3xl text-white laptop:text-2xl laptop:w-[20em] mobile:w-[16em] laptop:min-h-60 mobile:h-40'>   
+    <div className={`flex flex-col items-center gap-2 py-4 w-[20em]  ${fullscreen?"laptop:w-[90vw]":""}`}>
+      <div className='flex items-center justify-between px-5 py-3 bg-gradient-to-tr to-indigo-900 via-primary from-sky-500 rounded-3xl text-white laptop:text-2xl laptop:w-[20em] mini:w-5/6 mobile:w-[18em] laptop:min-h-60 mobile:h-40'>   
          <div className='self-start text-lg cursor-pointer'>
             <i className="fa-regular fa-lightbulb"></i>
          </div>
